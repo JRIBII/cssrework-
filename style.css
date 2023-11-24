@@ -1,0 +1,261 @@
+*{
+    font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: #747474;
+        padding-top: 10px;
+}
+.header{
+    max-width: 1015px;
+        padding: 0 20px;
+        margin: 0 auto;
+        position: relative;
+}
+
+.logo-docplanner {
+    display: flex;
+    justify-content: end;
+    width: 268px;
+    height: 33px;
+}
+.section__inner {
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    list-style: none;
+}
+.main-menu a{
+    text-decoration: none;
+    color: #747474;
+}
+.main-menu .is-current  {
+    color: #00b39b;
+}
+
+.main-menu a:hover {
+    color: #00b39b;
+}
+.firstSEC{
+    display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    gap: 10px;
+}
+.firstSEC .text {
+    display: grid;
+    grid-template-areas:
+    "text1 text2" ;
+}
+.firstSEC .text .firstTEXT{
+    grid-area: text1;
+    padding: 10px;
+}
+
+
+.firstSEC.text.secondTEXT{
+    grid-area: text2;
+    padding: 10px;
+}
+.logofirst{
+    position: relative;
+    align-self: center;
+    width: 40px;
+    height: 39px;
+}
+.firstSEC h1{
+    align-content: center;
+    color: #00b39b;
+}
+.serviceSEC{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.serviceSEC .service-container {
+    display: flex;
+    gap: 10px;
+        justify-content: space-around;
+
+
+}
+.serviceSEC .service-container .sample{
+    background-color: #00b39b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.serviceSEC .service-container .sample h1{
+    color: white;
+}
+
+.serviceSEC .service-container .sample p{
+    color: white;
+}
+#clinic-sample{
+    background-color: #1b2734;
+}
+#doctor-sample{
+    background-color: #3d83df;
+}
+#patient-sample{
+    background-color: #00ccb1;
+}
+select{
+        color: #fff;
+        border-radius: 15px;
+        background: none;
+        padding: 10px;
+        width: 250px;
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        box-shadow: 0 5px 48px rgb(93, 15, 9);
+        -webkit-appearance: button;
+        outline: none;
+}
+select::before{
+    content: '\f358';
+        font-family: "Font Awesome 5 free";
+        position: absolute;
+
+        top: 0;
+        right: 0;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        font-size: 30px;
+        pointer-events: none;
+}
+.brandsSEC{
+    display: flex;
+    gap: 10px;
+}
+
+.brandsSEC .brands__logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.brands__logos li{
+        padding: 5px 0 5px 5px;
+            width: 25%;
+            list-style: none;
+}
+.brands__logos li img{
+    width: 100px;
+}
+.statsSEC{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    border-radius: 0;
+}
+
+.statsSEC .statsDESC {
+    padding: 10px;
+    padding: 10px;
+        height: 552px;
+        overflow-x: auto;
+    
+}
+.statsSEC .statsDESC::-webkit-scrollbar{
+    display: none;
+}
+.statsSEC .statsDESC .descIMG {
+    right: 67%;
+    top: 45%;
+    background: url(/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+    pointer-events: none;
+}
+}
+
+.statsSEC h3 , p {
+text-align: center;
+}
+.statsSEC .containerSTAT {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.statsSEC .containerSTAT img
+ {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.statsSEC .stat-column{
+    display: flex;
+        gap: 10px;
+        width: 50%;
+        padding: 10px;
+        flex-wrap: wrap;
+        border: solid;
+        width: 587px;
+}
+
+.statsSEC .stat-column .containerSTAT p{
+    width: 200px;
+}
+.officeSEC{
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.officeSEC .officesslider{
+margin: 0 -10px ;
+zoom: 1;
+display: flex;
+flex-wrap: wrap;
+}
+
+.officeSEC .officesslider .office{
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+}
+.officeSEC h1,p{
+    text-align: center;
+}
+
+.officeSEC .officesslider .office .btn {
+    float: right;
+    background-color: cadetblue;
+    color: white;
+}
+.contactSEC{
+    padding: 10px;
+    text-align: center;
+
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    border: #1b2734;
+    border-width: 1px;
+}
+
+
+
